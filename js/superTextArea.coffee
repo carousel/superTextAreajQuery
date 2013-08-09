@@ -1,7 +1,7 @@
 # HTML input char-counter plugin, written in vanillajs
 # miroslav.trninic@gmail.com
 do($)->
-    #plugin ad object literal
+    #plugin as object literal
     @superTextArea = 
         init:(options)->
             @cacheElements(options)
